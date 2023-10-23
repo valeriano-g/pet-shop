@@ -1,0 +1,398 @@
+--root {
+    --color-principal: red;
+}
+
+
+* {
+    box-sizing: border-box;
+
+    color: #484571;
+}
+
+
+/*HEADER*/
+
+.header {
+    background-color: #eef1f4;
+    width: 100%;
+    padding-bottom: 3em;
+
+}
+
+.logo {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.fig-text {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+
+li .nav-link {
+    color: #484571;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header i {
+    padding: 5px;
+}
+
+header button {
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header button:hover {
+    opacity: 0.50;
+
+}
+
+header i:active {
+    color: #9ec413
+}
+
+.header-responsive {
+    display: none;
+}
+
+
+nav i {
+    padding-right: 5px;
+}
+
+nav li:hover {
+    opacity: 0.50;
+    font-size: 1.05em;
+    transition: 0.2s;
+}
+
+
+
+.img-header {
+    width: 400px;
+    float: right;
+    margin: auto;
+    margin-right: 1em;
+}
+
+
+.title-header {
+    margin: 30px;
+    text-align: start;
+    width: 45%;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    font-size: 3.5em
+}
+
+#btn-header {
+    background-color: #9ec413;
+    border-radius: 20px;
+
+}
+
+#btn-header:hover {
+    opacity: 0.50;
+}
+
+#btn-header:active {
+    background-color: #484571;
+}
+
+/*FINISH HEADER*/
+
+
+/*BLOG*/
+#about-section {
+    background-color: white;
+    margin-left: 100px;
+
+}
+
+.title {
+    font-family: 'Roboto Slab', serif;
+}
+
+.cont-blog {
+    padding: 3em 0px;
+}
+
+.cont-blog-responsive {
+    display: none;
+}
+
+.atributos {
+    translate: 50px;
+}
+
+/*FINISH BLOG*/
+
+/*shop*/
+
+.shop-img {
+    width: 14em;
+
+    ;
+}
+
+.food-section-responsive {
+    display: none;
+}
+
+.food-section-c {
+    display: block;
+}
+
+#food-section {
+    padding: 2em;
+    background-color: #eef1f4;
+
+}
+
+#food-section h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+#food-section li {
+    list-style: none;
+}
+
+#food-section li a {
+    text-decoration: none;
+    color: #484571;
+}
+
+.img-w {
+    width: 2px;
+}
+
+.iconos {
+    width: 25px;
+
+}
+
+.card-text {
+    border: 2px outline;
+
+    border-radius: 20px;
+    padding: 5px;
+    color: orange;
+    background-color: rgba(255, 255, 0, 0.212);
+    display: inline-flex;
+}
+
+.bottom-shop {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: rgba(140, 140, 140, 0.048);
+    display: inline-flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.bottom-shop:hover {
+    background-color: #484571;
+
+}
+
+.bottom-shop i:hover {
+    color: #eef1f4;
+}
+
+/*FINISH SHOP*/
+
+/*ABOUT SECTION*/
+#about-section {
+    padding: 3.8em;
+
+}
+
+#email {
+    width: 300px;
+    border-radius: 20px;
+}
+
+#btn-form {
+    background-color: #9ec413;
+    border-radius: 20px;
+    transform: translateX(-20px);
+}
+
+.img-ilustracion {
+    width: 300px;
+    object-fit: cover;
+}
+
+#about-section h4 {
+    font-size: 3.em;
+}
+
+/*FOOTER*/
+#footer-section {
+    background-color: #f8f8f8;
+    padding: 1em;
+}
+
+#footer-section p {
+    margin-bottom: 10px;
+}
+
+#footer-section h5 {
+    margin-bottom: 20px;
+}
+
+.email-footer:hover {
+    color: black;
+}
+
+.email-footer:focus {
+    color: #9ec413
+}
+
+#footer-section i {
+    padding: 7px;
+
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+
+
+@media only screen and (max-width: 884px) {
+
+    /*HEADER*/
+    .header-responsive {
+        display: block;
+    }
+
+    .nav-list-responsive {
+        display: none;
+    }
+
+    .navbar-dark button {
+        border: 1px solid black;
+        background-color: #9ec413;
+
+    }
+
+    .header-responsive ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-collapse {
+        background-color: #C2BBF0;
+    }
+
+    .img-header {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .title-header {
+        width: auto;
+        text-align: start;
+        font-family: 'Roboto Slab', serif;
+        text-transform: capitalize;
+        font-size: 1.2em;
+    }
+
+
+
+
+
+    /*FINISH HEADER*/
+
+    /**HOME-SECTION*/
+    .cont-blog {
+        display: none;
+    }
+
+    .food-section-c {
+        display: none;
+    }
+
+    .cont-blog-responsive {
+        display: grid;
+    }
+
+    /*FOOD-SECTION*/
+    .food-section-responsive {
+        display: grid;
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:768px) {
+
+
+
+    #about-section {
+        transform: translate(-50px);
+    }
+
+    #email {
+
+        width: 250px;
+        transition: width 0.2s ease-in-out;
+    }
+
+
+
+
+    #email:focus {
+        width: 300px;
+    }
+
+
+
+    #about-section {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+
+    .about-text {
+        font-size: 30px;
+
+    }
+
+
+
+    .form-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    #btn-form {
+        transform: translateY(10px);
+    }
+
+}
